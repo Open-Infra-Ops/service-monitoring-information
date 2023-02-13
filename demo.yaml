@@ -1,0 +1,6 @@
+service: "infrastructure-jenkins"
+api: ["https://jenkins.osinfra.cn/computer/"]
+method: GET
+rawdata: ""
+developer: liuyang
+contact: "747802914@qq.com"
