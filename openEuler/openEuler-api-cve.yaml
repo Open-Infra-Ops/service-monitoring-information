@@ -1,0 +1,7 @@
+service: "openeuler-api-cve"
+developer: zhaojiaming
+contact: "zjm.514@qq.com"
+monitor:
+  - method: "GET"
+    api: "https://api-cve.openeuler.org/cve-security-notice-server/osv/getType"
+    rawdata: ""
