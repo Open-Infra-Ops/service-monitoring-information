@@ -1,0 +1,7 @@
+service: "Mindspore-mailman"
+developer: zhuchao
+contact: "tom_toworld@163.com"
+monitor:
+  - method: "GET"
+    api: "https://mailweb.mindspore.cn/postorius/lists/"
+    rawdata: ""

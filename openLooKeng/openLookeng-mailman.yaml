@@ -1,0 +1,7 @@
+service: "openLookeng-mailman"
+developer: zhuchao
+contact: "tom_toworld@163.com"
+monitor:
+  - method: "GET"
+    api: "https://mailweb.openlookeng.io/postorius/lists/"
+    rawdata: ""
