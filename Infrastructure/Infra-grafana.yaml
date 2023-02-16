@@ -1,0 +1,7 @@
+service: "Infra-grafana"
+developer: zhuchao
+contact: "tom_toworld@163.com"
+monitor:
+  - method: "GET"
+    api: "https://grafana.osinfra.cn/login"
+    rawdata: ""

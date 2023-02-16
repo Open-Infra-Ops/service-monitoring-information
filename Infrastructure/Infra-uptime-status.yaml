@@ -1,0 +1,7 @@
+service: "Infra-uptime-status"
+developer: zhuchao
+contact: "tom_toworld@163.com"
+monitor:
+  - method: "GET"
+    api: "https://uptime-status.osinfra.cn/"
+    rawdata: ""

@@ -1,0 +1,7 @@
+service: "Infra-monitor"
+developer: zhuchao
+contact: "tom_toworld@163.com"
+monitor:
+  - method: "GET"
+    api: "https://monitor.osinfra.cn/"
+    rawdata: ""
