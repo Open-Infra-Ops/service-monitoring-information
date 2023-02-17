@@ -1,0 +1,7 @@
+service: "openGauss-calendar"
+developer: ailong
+contact: "ilong8@qq.com"
+monitor:
+  - method: "GET"
+    api: "https://www.opengauss.org/calendar/"
+    rawdata: ""
