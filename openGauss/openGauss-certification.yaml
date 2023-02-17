@@ -3,5 +3,5 @@ developer: panxiangqu
 contact: "1456889284@qq.com"
 monitor:
   - method: "GET"
-    api: "https://ccs.opengauss.org/ccs/base/"
+    api: "https://ccs.opengauss.org/ccs/base/certification/list/verifyCode?email=1456889284@qq.com"
     rawdata: ""

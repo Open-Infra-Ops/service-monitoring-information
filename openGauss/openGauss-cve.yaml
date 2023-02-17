@@ -3,5 +3,5 @@ developer: ailong
 contact: "ilong8@qq.com"
 monitor:
   - method: "GET"
-    api: "https://api.openeuler.org/cve-manager/"
+    api: "https://api.openeuler.org/cve-manager/v1/gauss/sa/detail?gaussSaNum=openGauss-SA-2022-1006"
     rawdata: ""

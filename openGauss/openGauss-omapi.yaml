@@ -3,5 +3,5 @@ developer: ailong
 contact: "ilong8@qq.com"
 monitor:
   - method: "GET"
-    api: "https://omapi.osinfra.cn/"
+    api: "https://omapi.osinfra.cn/query/all?community=openGauss"
     rawdata: ""

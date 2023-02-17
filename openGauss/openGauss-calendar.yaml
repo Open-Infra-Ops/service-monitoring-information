@@ -3,5 +3,5 @@ developer: ailong
 contact: "ilong8@qq.com"
 monitor:
   - method: "GET"
-    api: "https://www.opengauss.org/calendar/"
+    api: "https://www.opengauss.org/calendar/groups/"
     rawdata: ""
