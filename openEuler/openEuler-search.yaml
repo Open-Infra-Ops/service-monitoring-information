@@ -1,0 +1,7 @@
+service: "openEuler-search"
+developer: wangxing
+contact: "845831435@qq.com"
+monitor:
+  - method: "POST"
+    api: "https://doc-search.openeuler.org/search/docs"
+    rawdata: '{"keyword":"迁移","lang":"zh","page":1,"pageSize":12}'

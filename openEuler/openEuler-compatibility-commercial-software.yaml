@@ -1,0 +1,7 @@
+service: "openEuler-compatibility-commercial-software"
+developer: wangxing
+contact: "845831435@qq.com"
+monitor:
+  - method: "POST"
+    api: "https://openeuler.shanhaitujian.cn/certification/software/communityChecklist"
+    rawdata: '{"pageSize":10,"pageNo":1,"dataSource":["assessment"],"productType":["软件"]}'

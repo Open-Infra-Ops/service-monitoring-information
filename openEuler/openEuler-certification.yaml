@@ -1,0 +1,7 @@
+service: "openEuler-certification"
+developer: wangxing
+contact: "845831435@qq.com"
+monitor:
+  - method: "GET"
+    api: "https://ccs.openeuler.org/ccs/base/certification/list/verifyCode?email=845831435@qq.com"
+    rawdata: ""

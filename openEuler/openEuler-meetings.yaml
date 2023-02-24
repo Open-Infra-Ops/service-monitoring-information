@@ -1,0 +1,7 @@
+service: "openEuler-meetings"
+developer: wangxing
+contact: "845831435@qq.com"
+monitor:
+  - method: "GET"
+    api: "https://meetings.openeuler.org/meetingsdata"
+    rawdata: ""

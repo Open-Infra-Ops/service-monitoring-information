@@ -1,0 +1,7 @@
+service: "openEuler-compatibility-open-software"
+developer: wangxing
+contact: "845831435@qq.com"
+monitor:
+  - method: "GET"
+    api: "https://api-proxy.openeuler.isrc.ac.cn/web_backend/compat_software_info?page_size=10&page_num=1"
+    rawdata: ""

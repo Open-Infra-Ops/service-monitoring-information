@@ -1,0 +1,7 @@
+service: "openEuler-omapi"
+developer: wangxing
+contact: "845831435@qq.com"
+monitor:
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/all?community=openEuler"
+    rawdata: ""
