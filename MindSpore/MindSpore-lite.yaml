@@ -1,0 +1,11 @@
+service: "Mindspore-lite"
+developer: ailong
+contact: "ilong8@qq.com"
+monitor:
+  - method: "GET"
+    api: "https://www.mindspore.cn/example/frontend/list?pageCurrent=1&limit=12&lang=zh&showHomePage=1"
+    rawdata: ""
+  - method: "GET"
+    api: "https://www.mindspore.cn/modeled/frontend/list?pageCurrent=1&limit=12&lang=zh"
+    rawdata: ""
+    

@@ -1,0 +1,7 @@
+service: "Mindspore-ecosystem"
+developer: ailong
+contact: "ilong8@qq.com"
+monitor:
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/ecosystem/repo/info?community=mindspore&ecosystem_type=Library&sort_type=star&sort_order=desc&page=1&pageSize=10&lang=zh"
+    rawdata: ""

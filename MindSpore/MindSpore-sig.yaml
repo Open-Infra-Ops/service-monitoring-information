@@ -1,0 +1,10 @@
+service: "Mindspore-sig"
+developer: ailong
+contact: "ilong8@qq.com"
+monitor:
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/sig/name?community=mindspore&lang=zh"
+    rawdata: ""
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/sig/readme?community=mindspore&sig=DevelopereXperience%20SIG&lang=zh"
+    rawdata: ""

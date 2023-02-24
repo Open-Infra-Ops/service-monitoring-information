@@ -1,0 +1,7 @@
+service: "Mindspore-recruit"
+developer: ailong
+contact: "ilong8@qq.com"
+monitor:
+  - method: "POST"
+    api: "https://www.mindspore.cn/recruit/save"
+    rawdata: "{name: '',phone: '',email: '',company: '',job: '',jobExperience: '',technicalExperties: '',trainningExperience: '',uploadFile: '',postType:''}"

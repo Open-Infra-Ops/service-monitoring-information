@@ -1,0 +1,13 @@
+service: "Mindspore-news"
+developer: ailong
+contact: "ilong8@qq.com"
+monitor:
+  - method: "POST"
+    api: "https://www.mindspore.cn/selectWebNews"
+    rawdata: "{'pageCurrent':1,'tag':zh,'type':0,'newsTime':''}"
+  - method: "GET"
+    api: "https://www.mindspore.cn/getCategoryList?lang=zh"
+    rawdata: ""
+  - method: "GET"
+    api: "https://www.mindspore.cn/changeNews?tag=zh&random="
+    rawdata: ""

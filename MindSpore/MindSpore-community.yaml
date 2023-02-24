@@ -1,0 +1,10 @@
+service: "Mindspore-community"
+developer: ailong
+contact: "ilong8@qq.com"
+monitor:
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/stars?community=mindSpore"
+    rawdata: ""
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/all?community=mindspore"
+    rawdata: ""
