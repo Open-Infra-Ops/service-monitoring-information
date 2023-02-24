@@ -1,0 +1,7 @@
+service: "Mindspore-subscribe"
+developer: ailong
+contact: "ilong8@qq.com"
+monitor:
+  - method: "POST"
+    api: "https://www.mindspore.cn/subscribe"
+    rawdata: "{'mail': '','lang': ''}"

@@ -1,0 +1,13 @@
+service: "Mindspore-search"
+developer: ailong
+contact: "ilong8@qq.com"
+monitor:
+  - method: "POST"
+    api: "https://www.mindspore.cn/searchdoc"
+    rawdata: "{'keyword': 'x','page': 1,'mold': '','indexEs': 'mindspore_articles'}"
+  - method: "GET"
+    api: "https://www.mindspore.cn/tips?keywords=x&index=mindspore_index_tips"
+    rawdata: ""
+  - method: "GET"
+    api: "https://www.mindspore.cn/fileter?keyword=x&language=zh&version=x&page=1&index="
+    rawdata: ""

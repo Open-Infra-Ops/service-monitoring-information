@@ -1,0 +1,7 @@
+service: "Mindspore-cla"
+developer: ailong
+contact: "ilong8@qq.com"
+monitor:
+  - method: "GET"
+    api: "https://mailweb.mindspore.cn/postorius/lists/"
+    rawdata: ""

@@ -1,0 +1,10 @@
+service: "Mindspore-video"
+developer: ailong
+contact: "ilong8@qq.com"
+monitor:
+  - method: "POST"
+    api: "https://www.mindspore.cn/clickvideo"
+    rawdata: "{'name': '','from': 1}"
+  - method: "GET"
+    api: "https://www.mindspore.cn/latestvideo/list/?lang=zh"
+    rawdata: ""
