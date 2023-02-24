@@ -1,0 +1,10 @@
+service: "openEuler-mirrors"
+developer: wangxing
+contact: "845831435@qq.com"
+monitor:
+  - method: "GET"
+    api: "https://api.openeuler.org/mirrors/?mirrorstats=true"
+    rawdata: ""
+  - method: "GET"
+    api: "https://api.openeuler.org/osi-task-manager/intern/points/lists?sort=&pageSize=100"
+    rawdata: ""
