@@ -1,0 +1,7 @@
+service: "id-openEuler"
+developer: chenqi
+contact: "377075038@qq.com"
+monitor:
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/all?community=openEuler"
+    rawdata: ""
