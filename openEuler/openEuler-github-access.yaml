@@ -1,0 +1,7 @@
+service: "github-access"
+developer: wanghao
+contact: "shalldows@163.com"
+monitor:
+  - method: "POST"
+    api: "https://robot-github.osinfra.cn/github-hook"
+    rawdata: ""
