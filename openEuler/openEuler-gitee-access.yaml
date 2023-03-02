@@ -1,0 +1,7 @@
+service: "gitlee-access"
+developer: wanghao
+contact: "shalldows@163.com"
+monitor:
+  - method: "POST"
+    api: "https://robot-gitee.osinfra.cn/gitee-hook"
+    rawdata: ""
