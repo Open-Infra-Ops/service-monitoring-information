@@ -1,0 +1,34 @@
+service: "openEuler-reproducible-builds"
+developer: jiaorui
+contact: "644233126@qq.com"
+monitor:
+  - method: "POST"
+    api: "https://reproducible-builds.openeuler.org/api/obs/statisticalResult"
+    rawdata: '{"architectures": "arm64","testSuites": "master"}'
+  - method: "POST"
+    api: "https://reproducible-builds.openeuler.org/api/openEuler/statisticalResult"
+    rawdata: '{"architectures": "arm64","testSuites": "master"}'
+  - method: "GET"
+    api: "https://reproducible-builds.openeuler.org/api/obs/countBranch"
+    rawdata: ""
+  - method: "GET"
+    api: "https://reproducible-builds.openeuler.org/api/openEuler/countBranch"
+    rawdata: ""
+  - method: "POST"
+    api: "https://reproducible-builds.openeuler.org/api/obs/select"
+    rawdata: '{"architectures": "arm64","testSuites": "openEuler-22.09","term1": "reproducible","pageNum": 1,"pageSize": 10}'
+  - method: "POST"
+    api: "https://reproducible-builds.openeuler.org/api/openEuler/select"
+    rawdata: '{"architectures": "arm64","testSuites": "master","term1": "unreproducible","term2": "level-0.5","pageNum": 1,"pageSize": 10}'
+  - method: "POST"
+    api: "https://reproducible-builds.openeuler.org/api/obs/reproducible"
+    rawdata: '{"term1": "aalib","architectures": "arm64","testSuites": "openEuler-22.09"}'
+  - method: "POST"
+    api: "https://reproducible-builds.openeuler.org/api/openEuler/reproducible"
+    rawdata: '{"term1": "iputils-z9.24315975-z9.24316216","architectures": "arm64","testSuites": "master"}'
+  - method: "POST"
+    api: "https://reproducible-builds.openeuler.org/api/obs/chartingDate"
+    rawdata: '{"term1": "level2","architectures": "arm64","testSuites": "master"}'
+  - method: "POST"
+    api: "https://reproducible-builds.openeuler.org/api/openEuler/chartingDate"
+    rawdata: '{"term1": "level1","architectures": "arm64","testSuites": "master"}'
