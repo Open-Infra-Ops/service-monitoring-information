@@ -1,0 +1,7 @@
+service: "anti-poisoning"
+developer: zhangyaxiong
+contact: "openlibing@163.com"
+monitor:
+- method: "GET"
+  api: "https://anti-poison.osinfra.cn/checkRule/query/rules/config"
+  rawdata: ""
