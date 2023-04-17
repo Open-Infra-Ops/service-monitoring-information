@@ -3,29 +3,29 @@ developer: ChenYang
 contact: "775517776@qq.com"
 monitor:
 - method: "POST"
-  api: "https://doc-search.openeuler.org/search/docs"
+  api: "https://doc-search.opengauss.org/search/docs"
   rawdata: '{"keyword": "开源","page": 1,"pageSize": 10,"lang": "zh","type": ""}'
 - method: "POST"
-  api: "https://doc-search.openeuler.org/search/count"
+  api: "https://doc-search.opengauss.org/search/count"
   rawdata: '{"keyword": "开源","page": 1,"pageSize": 10,"lang": "zh","type": ""}'
 - method: "POST"
-  api: "https://doc-search.openeuler.org/search/sort"
+  api: "https://doc-search.opengauss.org/search/sort"
   rawdata: '{"page": 1,"pageSize": 10,"lang": "zh","category": "blog"}'
 - method: "POST"
-  api: "https://doc-search.openeuler.org/search/tags"
+  api: "https://doc-search.opengauss.org/search/tags"
   rawdata: '{"lang": "zh","category": "docs","want": "version"}'
 - method: "POST"
-  api: "https://doc-search.openeuler.org/search/sort/blog"
+  api: "https://doc-search.opengauss.org/search/sort/blog"
   rawdata: '{"page": 1,"pageSize": 100,"lang": "zh"}'
 - method: "POST"
-  api: "https://doc-search.openeuler.org/sort/news"
+  api: "https://doc-search.opengauss.org/sort/news"
   rawdata: '{"page": 1,"pageSize": 100,"lang": "zh"}'
 - method: "POST"
-  api: "https://doc-search.openeuler.org/sort/showcase"
+  api: "https://doc-search.opengauss.org/sort/showcase"
   rawdata: '{"page": 1,"pageSize": 100,"lang": "zh"}'
 - method: "POST"
-  api: "https://doc-search.openeuler.org/search/sort/docs"
+  api: "https://doc-search.opengauss.org/search/sort/docs"
   rawdata: '{"keyword": "开源","page": 1,"pageSize": 10,"lang": "zh","version": ""}'
 - method: "POST"
-  api: "https://doc-search.openeuler.org/search/sugg"
+  api: "https://doc-search.opengauss.org/search/sugg"
   rawdata: '{"keyword": "peneuler","page": 1,"pageSize": 10,"lang": "zh","type": ""}'
