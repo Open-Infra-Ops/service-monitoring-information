@@ -18,10 +18,10 @@ monitor:
   api: "https://doc-search.opengauss.org/search/sort/blog"
   rawdata: '{"page": 1,"pageSize": 100,"lang": "zh"}'
 - method: "POST"
-  api: "https://doc-search.opengauss.org/sort/news"
+  api: "https://doc-search.opengauss.org/search/sort/news"
   rawdata: '{"page": 1,"pageSize": 100,"lang": "zh"}'
 - method: "POST"
-  api: "https://doc-search.opengauss.org/sort/showcase"
+  api: "https://doc-search.opengauss.org/search/sort/showcase"
   rawdata: '{"page": 1,"pageSize": 100,"lang": "zh"}'
 - method: "POST"
   api: "https://doc-search.opengauss.org/search/sort/docs"
