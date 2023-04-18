@@ -1,4 +1,4 @@
-service: "openEuler-datastat"
+service: "openGauss-datastat"
 developer: wcp
 contact: "sch_na@163.com"
 monitor:

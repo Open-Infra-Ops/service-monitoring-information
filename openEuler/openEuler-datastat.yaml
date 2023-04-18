@@ -49,3 +49,11 @@ monitor:
   - method: "GET"
     api: "https://omapi.osinfra.cn/query/user/contribute/details?user=wubijie123&timeRange=all&community=openeuler&contributeType=pr"
     rawdata: ""
+
+  - method: "GET"
+    api: "https://dsapi.osinfra.cn/query/versions?community=openeuler"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://dsapi.osinfra.cn/query/company/contribute?community=openeuler&contributeType=pr&version=openEuler-23.03"
+    rawdata: ""
