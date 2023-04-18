@@ -18,7 +18,7 @@ monitor:
   api: "https://doc-search.openeuler.org/search/sort/blog"
   rawdata: '{"page": 1,"pageSize": 100,"lang": "zh"}'
 - method: "POST"
-  api: "https://doc-search.openeuler.org/searchsort/news"
+  api: "https://doc-search.openeuler.org/search/sort/news"
   rawdata: '{"page": 1,"pageSize": 100,"lang": "zh"}'
 - method: "POST"
   api: "https://doc-search.openeuler.org/search/sort/showcase"
