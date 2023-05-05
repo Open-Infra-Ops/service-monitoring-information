@@ -1,0 +1,59 @@
+service: "openEuler-datastat"
+developer: wcp
+contact: "sch_na@163.com"
+monitor:
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/all?community=openEuler"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/company/sigs?timeRange=lastoneyear&community=openeuler"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/TC/sigs?community=openeuler"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/sig/scoreAll?community=openeuler"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/user/contribute?community=openeuler&contributeType=pr&timeRange=lastonemonth"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/company/contribute?community=openeuler&contributeType=pr&timeRange=lastonemonth"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/sig/name?community=openeuler"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/sig/info?community=openeuler&sig=Kernel"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/sig/usercontribute?contributeType=pr&timeRange=all&community=openeuler&sig=Kernel"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/user/ownertype?community=openeuler&user=wubijie123"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/user/sigcontribute?user=wubijie123&timeRange=all&community=openeuler&contributeType=pr"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://omapi.osinfra.cn/query/user/contribute/details?user=wubijie123&timeRange=all&community=openeuler&contributeType=pr"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://dsapi.osinfra.cn/query/versions?community=openeuler"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://dsapi.osinfra.cn/query/company/contribute?community=openeuler&contributeType=pr&version=openEuler-23.03"
+    rawdata: ""

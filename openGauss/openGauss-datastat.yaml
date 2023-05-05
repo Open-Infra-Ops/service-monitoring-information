@@ -1,0 +1,27 @@
+service: "openGauss-datastat"
+developer: wcp
+contact: "sch_na@163.com"
+monitor:
+  - method: "GET"
+    api: "https://dsapi.osinfra.cn/query/all?community=opengauss"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://dsapi.osinfra.cn/query/sig/scoreAll?community=opengauss"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://dsapi.osinfra.cn/query/user/contribute?community=opengauss&contributeType=PR&timeRange=lastonemonth&repo=opengauss%2FopenGauss-server"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://dsapi.osinfra.cn/query/company/contribute?community=opengauss&contributeType=PR&timeRange=all&repo=opengauss%2FopenGauss-server"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://dsapi.osinfra.cn/query/community/repos?community=opengauss"
+    rawdata: ""
+
+  - method: "GET"
+    api: "https://dsapi.osinfra.cn/query/isv?community=opengauss"
+    rawdata: ""
